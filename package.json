@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "import-photos": "node scripts/import-photos.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

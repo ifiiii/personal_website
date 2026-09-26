@@ -34,6 +34,14 @@ Types are in `lib/types.ts`. To add a new category, add it to `RECOMMENDATION_CA
 
 Photos live in `public/images/ramen/` and `public/images/guide/`. Each entry's `imagePlaceholderUrl` names its photo (e.g. `/images/ramen/iruca-tokyo.jpg`). Until that file exists, the site shows the folder's `placeholder.jpg` instead, so just drop photos in with the matching filename. (Restart `npm run dev` after adding photos; the check runs when the data loads.)
 
+To add photos straight from your phone export, name each file to match the JSON (any extension/case works) and run:
+
+```bash
+npm run import-photos -- "C:\path\to\photo\folder" ramen
+```
+
+Use `guide` instead of `ramen` for Japan Guide photos. The script converts to `.jpg`, resizes to max 1600px, fixes rotation, and strips metadata (including GPS location) before copying into `public/images/<folder>/`.
+
 Shops that share the exact same coordinates are fanned out slightly on the map so each pin stays clickable.
 
 The hero, About portrait and homepage tiles still use picsum.photos. To use a different remote host, add it to `images.remotePatterns` in `next.config.ts`.
