@@ -1,92 +1,252 @@
 [
   {
-    "id": "ramen-001",
-    "shopName": "Menya Kaze",
-    "locationName": "Shinjuku, Tokyo",
-    "coordinates": [35.6938, 139.7034],
-    "rating": 9.6,
-    "brothType": "Niboshi Shoyu",
-    "reviewText": "Placeholder review. Describe the broth, the noodles, the chashu and the moment you knew this bowl was special. Mention the queue, the ticket machine and what you would order next time.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
-  },
-  {
-    "id": "ramen-002",
-    "shopName": "Hakata Ichiban Yatai",
-    "locationName": "Hakata, Fukuoka",
-    "coordinates": [33.5902, 130.4207],
-    "rating": 9.4,
-    "brothType": "Tonkotsu",
-    "reviewText": "Placeholder review. A rich, milky pork-bone broth with thin, firm noodles. Note your kaedama order, the toppings and how it compares to other Hakata bowls.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
-  },
-  {
-    "id": "ramen-003",
-    "shopName": "Susukino Miso Works",
-    "locationName": "Susukino, Sapporo",
-    "coordinates": [43.0556, 141.353],
-    "rating": 9.2,
-    "brothType": "Miso",
-    "reviewText": "Placeholder review. Wok-fried vegetables, a layer of lard keeping it scorching hot, and curly yellow noodles. Perfect after a snowy walk.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
-  },
-  {
-    "id": "ramen-004",
-    "shopName": "Ichijoji Chicken Club",
-    "locationName": "Ichijoji, Kyoto",
-    "coordinates": [35.045, 135.787],
-    "rating": 8.9,
-    "brothType": "Tori Paitan",
-    "reviewText": "Placeholder review. A creamy chicken broth from Kyoto's ramen street. Describe the texture, the garnish and whether you would queue again.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
-  },
-  {
-    "id": "ramen-005",
-    "shopName": "Kitakata Morning Bowl",
-    "locationName": "Kitakata, Fukushima",
-    "coordinates": [37.651, 139.874],
-    "rating": 8.7,
+    "id": "1",
+    "shopName": "Iruca Tokyo Roppongi",
+    "locationName": "Tokyo",
+    "coordinates": [35.6631, 139.7323],
+    "rating": 9.5,
     "brothType": "Shoyu",
-    "reviewText": "Placeholder review. Kitakata's asa-ra (morning ramen) culture: flat, wavy noodles in a clear soy broth, eaten at 7am.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
+    "reviewText": "Your first bowl of ramen in Japan is always special and you always remember it, mine was Iruca. I went because I heard it was famous and had a Michelin star, which to me meant something I guess. I remember I had to wait in line for like 2 hours, but it was great. I think Iruca might’ve been the reason this whole list started. A bit expensive compared to your local ramen definitely, but simply great, simple, and rememberable. Isn’t that everything in life?",
+    "imagePlaceholderUrl": "/images/ramen/iruca-tokyo.jpg"
   },
   {
-    "id": "ramen-006",
-    "shopName": "Namba Tsukemen Lab",
-    "locationName": "Namba, Osaka",
-    "coordinates": [34.666, 135.501],
+    "id": "2",
+    "shopName": "Ichiran",
+    "locationName": "Tokyo",
+    "coordinates": [35.6617, 139.7029],
     "rating": 8.5,
-    "brothType": "Gyokai Tsukemen",
-    "reviewText": "Placeholder review. Thick noodles dipped in a concentrated pork and seafood sauce. Don't forget the soup-wari at the end.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
+    "brothType": "Tonkotsu",
+    "reviewText": "Now everyone knows Ichiran, let's be honest. People say it's overrated always, and I hate that personally. I think it's amazing. I think it's awesome that you can have a bowl of Ichiran anywhere in Japan and they all taste great. The environment especially is something you can only experience here—that closed-off personal space/capsule hotel feeling you get whilst eating feels snug and comfortable. I’d highly recommend going, especially if you're traveling alone.",
+    "imagePlaceholderUrl": "/images/ramen/ichiran.jpg"
   },
   {
-    "id": "ramen-007",
-    "shopName": "Ebisu Yuzu Shio",
-    "locationName": "Ebisu, Tokyo",
-    "coordinates": [35.6467, 139.7101],
-    "rating": 8.3,
-    "brothType": "Yuzu Shio",
-    "reviewText": "Placeholder review. A light, clear salt broth brightened with yuzu peel. A good bowl for a hot summer day.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
+    "id": "3",
+    "shopName": "Ramen Shingen (Minami 6-jo)",
+    "locationName": "Sapporo",
+    "coordinates": [43.0532, 141.3486],
+    "rating": 10,
+    "brothType": "Miso",
+    "reviewText": "Now this is my favourite ramen place in the whole world. I get a bit emotional when I think about this ramen; if I was at gunpoint and they said I could have one meal before I die, this would be it. Just trust me on this one. Everything else on this list is subjective, but something about this ramen is so special. The price, the taste, the portion, the environment—it's all perfect. I highly recommend going here during winter as it feels extra awesome to eat this after waiting in line outside in the freezing snow.",
+    "imagePlaceholderUrl": "/images/ramen/shingen-sapporo.jpg"
   },
   {
-    "id": "ramen-008",
-    "shopName": "Kannai Iekei House",
-    "locationName": "Kannai, Yokohama",
-    "coordinates": [35.4437, 139.638],
+    "id": "4",
+    "shopName": "Shrimp Ramen Iccac (一角)",
+    "locationName": "Sapporo",
+    "coordinates": [43.0543, 141.3534],
+    "rating": 7,
+    "brothType": "Ebi (Shrimp)",
+    "reviewText": "This ramen is from the very well-known ramen street in Sapporo, a very narrow alley filled to the brim with shops. Because this place is so popular, I recommend just going into the store with the shortest line. I think all the ramen here is pretty good. For me, it wasn’t my absolute favorite of all time, but it'll give you a good time and a full stomach with a smile. In Korean, we use the term '무조건 평타는 친다'—which basically means 'yeah, it’ll always be kinda good.'",
+    "imagePlaceholderUrl": "/images/ramen/iccac-shrimp.jpg"
+  },
+  {
+    "id": "5",
+    "shopName": "Cho-tonkotsu Nodo 8",
+    "locationName": "Osaka",
+    "coordinates": [34.6678, 135.5020],
+    "rating": 5.5,
+    "brothType": "Tonkotsu",
+    "reviewText": "This was just a ramen I had that was close to my hotel in Osaka. It was pretty good, not gonna lie, the portion and price were both solid. But what broke me was the hygiene, and the overall environment just wasn’t the best in my opinion. I honestly forget what it fully tasted like purely because of those concerns. I guess that shows how important the little things are other than just the actual ramen itself.",
+    "imagePlaceholderUrl": "/images/ramen/nodo8-osaka.jpg"
+  },
+  {
+    "id": "6",
+    "shopName": "Kamukura",
+    "locationName": "Osaka",
+    "coordinates": [34.6687, 135.5021],
     "rating": 8,
-    "brothType": "Iekei (Tonkotsu Shoyu)",
-    "reviewText": "Placeholder review. Customize firmness, richness and oil level. Big sheets of nori, spinach and a bowl of rice on the side.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
+    "brothType": "Shoyu / Vegetable",
+    "reviewText": "I have a lot to say about this one. It's very popular, especially in Osaka, and locals love it. However, I have mixed feelings. This ramen feels like that toxic ex you always somehow go back to when you’re tired and drunk. It honestly just tastes like cabbage soup with noodles—albeit a very good cabbage soup with great noodles. The reason it's ranked so high is because I keep coming back to it every time I’m in Japan. I don't want to see you anymore, but I just want to see you once more. God, why are the toxic ones always the crazy fun ones?",
+    "imagePlaceholderUrl": "/images/ramen/kamukura.jpg"
   },
   {
-    "id": "ramen-009",
-    "shopName": "Onomichi Harbor Noodle",
-    "locationName": "Onomichi, Hiroshima",
-    "coordinates": [34.4089, 133.205],
-    "rating": 7.8,
-    "brothType": "Seabura Shoyu",
-    "reviewText": "Placeholder review. Soy broth dotted with pork back-fat, flat noodles, and a view of the Seto Inland Sea on the walk back.",
-    "imagePlaceholderUrl": "/images/ramen/placeholder.jpg"
+    "id": "7",
+    "shopName": "Ramen HH",
+    "locationName": "Tokyo",
+    "coordinates": [35.6645, 139.8594],
+    "rating": 8.9,
+    "brothType": "Tonkotsu",
+    "reviewText": "Where do I begin with this guy. Located in Nishi-Kasai (a bit east of central Tokyo), I doubt anyone would go there just for this, but if you're ever in the region, I highly recommend it. The broth hits you like a train and the meat is amazing. But the real reason this gets such a high rating is the owners. They are so electrifying, charismatic, and charming. They are genuinely happy to serve you, and when someone is that excited about their craft, it's hard to fail. The taste reflects that perfectly.",
+    "imagePlaceholderUrl": "/images/ramen/ramen-hh.jpg"
+  },
+  {
+    "id": "8",
+    "shopName": "Botejyu",
+    "locationName": "Osaka",
+    "coordinates": [34.4333, 135.2333],
+    "rating": 5,
+    "brothType": "Shoyu",
+    "reviewText": "Look, this was an airport ramen. I was probably tired, stressed about making my flight, and just happened to want noodles. It was okay, but honestly, I can't really remember much of it. I think it was a bit bland. It does the job when you need pre-flight sustenance and you're desperate, but you're definitely not writing home about it.",
+    "imagePlaceholderUrl": "/images/ramen/botejyu-airport.jpg"
+  },
+  {
+    "id": "9",
+    "shopName": "Aomori Niboshi Chukasoba GEN",
+    "locationName": "Tokyo",
+    "coordinates": [35.6645, 139.8594],
+    "rating": 5.5,
+    "brothType": "Niboshi (Squid Ink)",
+    "reviewText": "I don’t really remember this ramen, not gonna lie. It was near Nishi-Kasai where I generally stay for the cheap, local vibe. It was pretty unique in that it had a squid ink broth, and it tasted pretty good if I try and force myself to remember it. But seeing how it doesn’t easily come to mind kind of tells you the rating and the story.",
+    "imagePlaceholderUrl": "/images/ramen/gen-niboshi.jpg"
+  },
+  {
+    "id": "10",
+    "shopName": "Yakiago Shio Ramen Takahashi",
+    "locationName": "Tokyo",
+    "coordinates": [35.6705, 139.7659],
+    "rating": 8.5,
+    "brothType": "Shio (Flying Fish)",
+    "reviewText": "I wasn’t actually planning on going here. There’s a very popular ramen place right across the street with over 4,000 reviews, but the line was way too long, so I came here instead. Because it's in Ginza, you have to pay the 'Ginza tax' so it's a bit more expensive, but the bowl itself was great. The broth was super hot and deep. It’s like the most textbook example of a 'good' ramen in Japan. Highly rated.",
+    "imagePlaceholderUrl": "/images/ramen/takahashi-ginza.jpg"
+  },
+  {
+    "id": "11",
+    "shopName": "Mugi to Olive",
+    "locationName": "Tokyo",
+    "coordinates": [35.5491, 139.7846],
+    "rating": 7.2,
+    "brothType": "Shoyu",
+    "reviewText": "Located in Haneda airport, I had this right before leaving Japan the first time I went. It served as a reminder of all the goodness I had on that first visit. For airport food, it was great. Is it great if you don't take that into account? Maybe not, but it holds a special place in my heart. The broth is really deep and the noodles were surprisingly firm and tender for an airport terminal.",
+    "imagePlaceholderUrl": "/images/ramen/mugi-olive.jpg"
+  },
+  {
+    "id": "12",
+    "shopName": "Mutekiya",
+    "locationName": "Tokyo",
+    "coordinates": [35.7279, 139.7118],
+    "rating": 8.7,
+    "brothType": "Tonkotsu",
+    "reviewText": "This place is super popular; you’ll have to wait in line for at least an hour at any given time. It’s very touristy, which I don’t mind, but just be aware. The ramen itself is crazy good. The broth is supreme, thick, and deep, but the highlight was the meat. It was super fluffy yet tender, and you could immediately tell you were eating a high-quality cut. Definitely try it if you're in Ikebukuro.",
+    "imagePlaceholderUrl": "/images/ramen/mutekiya.jpg"
+  },
+  {
+    "id": "13",
+    "shopName": "Ginza Kagari - Soba",
+    "locationName": "Tokyo",
+    "coordinates": [35.6728, 139.7635],
+    "rating": 8.6,
+    "brothType": "Tori Paitan",
+    "reviewText": "I’m someone who enjoys shoyu/shio or tonkotsu broths. Ginza Kagari has a super deep, thick chicken broth—almost like a creamy chicken soup texture. Personally, it wasn't my absolute favorite style, but for you, it might be the best ever. There is heavy Ginza tax so it’s expensive, but the toppings were elite. I never praise vegetable toppings on ramen, but these were amazing, which is why it still ranks quite high.",
+    "imagePlaceholderUrl": "/images/ramen/kagari-ginza.jpg"
+  },
+  {
+    "id": "14",
+    "shopName": "Aoshima Shokudo Akihabara",
+    "locationName": "Tokyo",
+    "coordinates": [35.6983, 139.7758],
+    "rating": 9.9,
+    "brothType": "Shoyu (Ginger)",
+    "reviewText": "If it wasn’t for Ramen Shingen in Sapporo, this would be my number 1. Let’s say this is my favorite ramen in Tokyo, and Shingen is my favorite in Sapporo, so I can have two favorites. If the Sapporo one is the best tonkotsu/miso in the world, this is the best shoyu broth in the world. The atmosphere and prices are amazing. You might have to wait in line quite a bit as this place has become a huge attraction for Koreans recently, so watch out for that.",
+    "imagePlaceholderUrl": "/images/ramen/aoshima-akihabara.jpg"
+  },
+  {
+    "id": "15",
+    "shopName": "Sugoi Niboshi Ramen Nagi Shinjuku",
+    "locationName": "Tokyo",
+    "coordinates": [35.6940, 139.7046],
+    "rating": 9.6,
+    "brothType": "Niboshi",
+    "reviewText": "The ramen here honestly rivals the top spots on my list; it might be the most unique ramen I’ve tasted in my life. The only reason I gave it a slightly lower rating is purely the location. It's in Shinjuku Golden Gai, and if you don't know, it ain’t the safest/cleanest place in Japan. If you’re a solo traveler, go before it gets too deep into the night. Other than that, it is exceptionally priced and tastes 1000x better than it looks in photos.",
+    "imagePlaceholderUrl": "/images/ramen/nagi-shinjuku.jpg"
+  },
+  {
+    "id": "16",
+    "shopName": "Sumire Sapporo Susukino",
+    "locationName": "Sapporo",
+    "coordinates": [43.0555, 141.3533],
+    "rating": 9.3,
+    "brothType": "Miso",
+    "reviewText": "Very similar tasting intensity to Sugoi Niboshi in Shinjuku. Just an absolutely phenomenal, thick, hearty bowl of ramen that defines what Sapporo miso is supposed to taste like. It coats your mouth in the best way possible. Another incredible standard for what top-tier ramen should be.",
+    "imagePlaceholderUrl": "/images/ramen/sumire-sapporo.jpg"
+  },
+  {
+    "id": "17",
+    "shopName": "Baisensha Ramen",
+    "locationName": "Sapporo",
+    "coordinates": [43.0543, 141.3534],
+    "rating": 7,
+    "brothType": "Miso",
+    "reviewText": "This is another solid spot in the famous ramen street in Sapporo. Like I said before, this alley is so packed you can basically just pick whatever shop has the shortest line and you're going to get a good bowl. This one hit the spot exactly how you want a hearty Sapporo bowl to hit. Nothing life-changing, but undeniably a good time.",
+    "imagePlaceholderUrl": "/images/ramen/baisensha-sapporo.jpg"
+  },
+  {
+    "id": "18",
+    "shopName": "Kyushu Ramen Kio Dotonbori",
+    "locationName": "Osaka",
+    "coordinates": [34.6687, 135.5021],
+    "rating": 7.3,
+    "brothType": "Tonkotsu",
+    "reviewText": "Another Dotonbori staple. If you find yourself here, do yourself a favor and get the spicy ramen. It is so much better than the standard bowls they offer. It’s got that rich, comforting kick you desperately need after a long night of walking around Osaka and making questionable decisions.",
+    "imagePlaceholderUrl": "/images/ramen/kio-osaka.jpg"
+  },
+  {
+    "id": "19",
+    "shopName": "Ichiryu Manbai",
+    "locationName": "Tokyo",
+    "coordinates": [35.6912, 139.7011],
+    "rating": 8.3,
+    "brothType": "Shoyu / Shio",
+    "reviewText": "A fantastic standard for what good ramen should be. The absolute star of the show here though? The bamboo shoots. I am an absolute sucker for good bamboo shoots in ramen, and the ones here are elite. I gave this bowl extra points purely for the shoots. Sue me.",
+    "imagePlaceholderUrl": "/images/ramen/ichiryu-manbai.jpg"
+  },
+  {
+    "id": "20",
+    "shopName": "Resto Ramen",
+    "locationName": "Osaka",
+    "coordinates": [34.6937, 135.5022],
+    "rating": 7.4,
+    "brothType": "Shoyu",
+    "reviewText": "I’m not entirely sure if the name has changed since I was here, but the noodles were super tender and thick—which is honestly the main thing permanently burned into my memory. The soup was surprisingly refreshing, which is a weird word to use for ramen broth, but I loved it.",
+    "imagePlaceholderUrl": "/images/ramen/resto-ramen.jpg"
+  },
+  {
+    "id": "21",
+    "shopName": "Honke Daiichi Asahi Honten",
+    "locationName": "Kyoto",
+    "coordinates": [34.9875, 135.7602],
+    "rating": 9.4,
+    "brothType": "Shoyu",
+    "reviewText": "Okay, this is hands down the best ramen in Kyoto. It has over 10,000 reviews online, which is completely insane, and yes, you will definitely have to wait in line for a long time. But the hype is real. It’s an absolute masterpiece of a bowl. Do not skip this if you are anywhere near Kyoto.",
+    "imagePlaceholderUrl": "/images/ramen/daiichi-asahi.jpg"
+  },
+  {
+    "id": "22",
+    "shopName": "Ippudo",
+    "locationName": "Tokyo",
+    "coordinates": [35.6617, 139.7029],
+    "rating": 7.9,
+    "brothType": "Tonkotsu",
+    "reviewText": "Ippudo is a massive chain, and honestly, it tastes like a pretty good chain ramen restaurant. It's consistent, it's everywhere, and it gets the job done. But if I'm being real, if I have to choose a giant chain, I'm going to Ichiran or Kamukura over this nine times out of ten.",
+    "imagePlaceholderUrl": "/images/ramen/ippudo.jpg"
+  },
+  {
+    "id": "23",
+    "shopName": "Ramen Hayashida Shinjuku",
+    "locationName": "Tokyo",
+    "coordinates": [35.6914, 139.7032],
+    "rating": 8.6,
+    "brothType": "Shoyu",
+    "reviewText": "Another great standard for an awesome Tokyo bowl. Once again, I am handing out massive bonus points for the big bamboo shoots. I don't know why I love them so much, but when a shop gets them right, it elevates the entire bowl for me. A rock-solid Shinjuku option.",
+    "imagePlaceholderUrl": "/images/ramen/hayashida-shinjuku.jpg"
+  },
+  {
+    "id": "24",
+    "shopName": "Tsujita Ginza",
+    "locationName": "Tokyo",
+    "coordinates": [35.6705, 139.7659],
+    "rating": 8.8,
+    "brothType": "Tsukemen",
+    "reviewText": "This is easily my favorite ramen spot in Ginza. The broth is unmatched and the meat is portioned perfectly. Yeah, you're absolutely paying the 'Ginza Tax' to eat here, but it's worth every extra yen. A heavy, rich, perfect bowl.",
+    "imagePlaceholderUrl": "/images/ramen/tsujita-ginza.jpg"
+  },
+  {
+    "id": "25",
+    "shopName": "Mensho",
+    "locationName": "Tokyo",
+    "coordinates": [35.7175, 139.7289],
+    "rating": 8.4,
+    "brothType": "Tori Paitan",
+    "reviewText": "I’ve actually had Mensho back home in Australia, and the one in Japan is infinitely better. That being said, because of how much I loved the Australian one, I built this up in my head and expected it to be a completely life-altering experience. I was honestly set back a little bit. It's great, but high expectations can be a curse, hence the slightly lower score.",
+    "imagePlaceholderUrl": "/images/ramen/mensho-tokyo.jpg"
   }
 ]

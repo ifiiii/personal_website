@@ -24,7 +24,7 @@ export default function RecommendationCard({ place, active, onSelect }: Recommen
       }`}
       style={active ? { borderColor: style.color, ["--tw-ring-color" as string]: `${style.color}4d` } : undefined}
     >
-      <div className="relative aspect-square w-24 shrink-0 overflow-hidden rounded-xl sm:w-28">
+      <div className="relative aspect-square w-24 shrink-0 self-start overflow-hidden rounded-xl sm:w-28">
         <Image
           src={place.imagePlaceholderUrl}
           alt={place.name}

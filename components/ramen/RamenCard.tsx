@@ -21,7 +21,7 @@ export default function RamenCard({ shop, rank, active, onSelect }: RamenCardPro
           : "border-line bg-white/60 hover:border-ink-soft/40 hover:bg-white"
       }`}
     >
-      <div className="relative aspect-square w-24 shrink-0 overflow-hidden rounded-xl sm:w-28">
+      <div className="relative aspect-square w-24 shrink-0 self-start overflow-hidden rounded-xl sm:w-28">
         <Image
           src={shop.imagePlaceholderUrl}
           alt={`Bowl at ${shop.shopName}`}
@@ -37,7 +37,7 @@ export default function RamenCard({ shop, rank, active, onSelect }: RamenCardPro
       <div className="min-w-0 flex-1">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <h3 className="truncate font-display text-lg font-semibold">{shop.shopName}</h3>
+            <h3 className="line-clamp-2 font-display text-lg leading-snug font-semibold">{shop.shopName}</h3>
             <p className="text-sm text-ink-soft">{shop.locationName}</p>
           </div>
           <RatingBadge rating={shop.rating} />

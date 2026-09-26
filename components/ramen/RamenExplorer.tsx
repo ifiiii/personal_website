@@ -72,7 +72,7 @@ export default function RamenExplorer({ shops }: { shops: RamenShop[] }) {
         coordinates: shop.coordinates,
         title: shop.shopName,
         subtitle: `${shop.rating.toFixed(1)}/10 · ${shop.brothType}`,
-        badge: shop.rating.toFixed(1),
+        badge: shop.rating === 10 ? "10" : shop.rating.toFixed(1),
       })}
       header={
         <>

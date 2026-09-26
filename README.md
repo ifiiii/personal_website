@@ -32,7 +32,9 @@ Types are in `lib/types.ts`. To add a new category, add it to `RECOMMENDATION_CA
 
 ### Images
 
-Photos live in `public/images/ramen/` and `public/images/guide/`. Every entry currently points at that folder's `placeholder.jpg`. Drop your photo in (e.g. `public/images/ramen/menya-kaze.jpg`) and set `imagePlaceholderUrl` to `/images/ramen/menya-kaze.jpg`.
+Photos live in `public/images/ramen/` and `public/images/guide/`. Each entry's `imagePlaceholderUrl` names its photo (e.g. `/images/ramen/iruca-tokyo.jpg`). Until that file exists, the site shows the folder's `placeholder.jpg` instead, so just drop photos in with the matching filename. (Restart `npm run dev` after adding photos; the check runs when the data loads.)
+
+Shops that share the exact same coordinates are fanned out slightly on the map so each pin stays clickable.
 
 The hero, About portrait and homepage tiles still use picsum.photos. To use a different remote host, add it to `images.remotePatterns` in `next.config.ts`.
 

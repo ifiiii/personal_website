@@ -80,8 +80,33 @@ function FlyToSelected({
   return null;
 }
 
-export default function LeafletMap({ points, selectedId, onSelect }: LeafletMapProps) {
+/**
+ * Points with identical coordinates would stack exactly on top of each other, leaving only one clickable.
+ * Fan them out in a small circle (~80 m) so each pin can be reached once you zoom in. Display-only.
+ */
+function spreadDuplicates(points: MapPoint[]): MapPoint[] {
+  const groups = new Map<string, MapPoint[]>();
+  for (const p of points) {
+    const key = p.coordinates.join(",");
+    groups.set(key, [...(groups.get(key) ?? []), p]);
+  }
+  const RADIUS = 0.0008;
+  return points.map((p) => {
+    const group = groups.get(p.coordinates.join(","))!;
+    if (group.length === 1) return p;
+    const angle = (2 * Math.PI * group.indexOf(p)) / group.length;
+    const [lat, lng] = p.coordinates;
+    const lngScale = Math.cos((lat * Math.PI) / 180);
+    return {
+      ...p,
+      coordinates: [lat + RADIUS * Math.cos(angle), lng + (RADIUS * Math.sin(angle)) / lngScale],
+    };
+  });
+}
+
+export default function LeafletMap({ points: rawPoints, selectedId, onSelect }: LeafletMapProps) {
   const markers = useRef(new Map<string, L.Marker>());
+  const points = useMemo(() => spreadDuplicates(rawPoints), [rawPoints]);
 
   const icons = useMemo(
     () => new Map(points.map((p) => [p.id, makeIcon(p, p.id === selectedId)])),
