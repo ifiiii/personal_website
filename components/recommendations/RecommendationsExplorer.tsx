@@ -31,8 +31,8 @@ export default function RecommendationsExplorer({ places }: { places: Recommenda
         id: place.id,
         coordinates: place.coordinates,
         title: place.name,
-        subtitle: `${place.category} · ${place.locationName}`,
-        badge: categoryStyles[place.category].icon,
+        subtitle: `${place.rating.toFixed(1)}/10 · ${place.category} · ${place.locationName}`,
+        badge: place.rating.toFixed(1),
         color: categoryStyles[place.category].color,
       })}
       header={

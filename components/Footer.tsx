@@ -15,7 +15,7 @@ export default function Footer() {
           <p className="text-xs text-ink-soft">
             © {new Date().getFullYear()} {site.name} ·{" "}
             <Link href="/about" className="underline underline-offset-2 hover:text-ink">
-              About
+              About iFi
             </Link>
           </p>
         </div>

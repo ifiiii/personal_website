@@ -1,4 +1,4 @@
-# Ramen Journal
+# iFi's Journal
 
 Personal site and blog for ramen rankings and Japan travel. Built with Next.js (App Router), Tailwind CSS v4, and Leaflet via react-leaflet.
 
@@ -16,23 +16,25 @@ Open http://localhost:3000.
 | Route    | What it is                                                                    |
 | -------- | ----------------------------------------------------------------------------- |
 | `/`      | Hero, Top 3 ramen bowls, links to the other pages                             |
-| `/ramen` | Ramen Rankings: split-screen map + ranked card list (click pin ↔ card)        |
-| `/japan` | Japan Guide: map + list filtered by Nightlife / Sights / Cafes                |
-| `/about` | Bio, stats, and Instagram / YouTube buttons                                   |
+| `/ramen` | Ramen Rankings: split-screen map + ranked card list, sort + city filter       |
+| `/japan` | Japan Guide: rated map + list filtered by Nightlife / Sights / Cafes          |
+| `/about` | About iFi: bio, stats, and Instagram / YouTube buttons                        |
 
 ## Editing content
 
 All content lives in `data/` — edit the JSON and the site updates.
 
-- `data/ramenData.json`: `id`, `shopName`, `locationName`, `coordinates` (`[lat, lng]`), `rating` (out of 10), `brothType`, `reviewText`, `imagePlaceholderUrl`. The list is sorted by rating automatically; the top 3 appear on the homepage.
-- `data/recommendationsData.json`: `id`, `name`, `locationName`, `coordinates`, `category` (`"Nightlife"`, `"Sights"` or `"Cafes"`), `reviewText`, `imagePlaceholderUrl`.
+- `data/ramenData.json`: `id`, `shopName`, `locationName`, `coordinates` (`[lat, lng]`), `rating` (out of 10), `brothType`, `reviewText`, `imagePlaceholderUrl`. The top 3 by rating appear on the homepage. The city filter on `/ramen` uses the part of `locationName` after the last comma (`"Shinjuku, Tokyo"` → Tokyo), so keep that format.
+- `data/recommendationsData.json`: `id`, `name`, `locationName`, `coordinates`, `category` (`"Nightlife"`, `"Sights"` or `"Cafes"`), `rating` (out of 10), `reviewText`, `imagePlaceholderUrl`.
 - `data/site.json`: your name, tagline, bio paragraphs, stats, and social links. Set `social.instagram` / `social.youtube` to a URL to turn the "soon" placeholders into real buttons.
 
 Types are in `lib/types.ts`. To add a new category, add it to `RECOMMENDATION_CATEGORIES` there and give it a color/icon in `components/recommendations/categories.ts`.
 
 ### Images
 
-Placeholders come from picsum.photos. For your own photos, either drop files in `public/images/` and use paths like `/images/my-bowl.jpg`, or add your image host to `images.remotePatterns` in `next.config.ts`.
+Photos live in `public/images/ramen/` and `public/images/guide/`. Every entry currently points at that folder's `placeholder.jpg`. Drop your photo in (e.g. `public/images/ramen/menya-kaze.jpg`) and set `imagePlaceholderUrl` to `/images/ramen/menya-kaze.jpg`.
+
+The hero, About portrait and homepage tiles still use picsum.photos. To use a different remote host, add it to `images.remotePatterns` in `next.config.ts`.
 
 ## Map
 

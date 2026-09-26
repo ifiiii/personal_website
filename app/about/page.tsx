@@ -4,8 +4,8 @@ import SocialButtons from "@/components/SocialButtons";
 import { site } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: `About ${site.name} and the Ramen Journal.`,
+  title: "About iFi",
+  description: site.tagline,
 };
 
 export default function AboutPage() {
@@ -24,7 +24,7 @@ export default function AboutPage() {
         </div>
 
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-beni">About me</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-beni">About iFi</p>
           <h1 className="mt-2 font-display text-5xl font-semibold tracking-tight">Hi, I&apos;m {site.name}.</h1>
           <p className="mt-3 text-xl text-ink-soft">{site.tagline}</p>
 
@@ -44,9 +44,9 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-10 rounded-3xl border border-line bg-paper-deep p-6">
-            <h2 className="font-display text-2xl font-semibold">Follow the slurp</h2>
+            <h2 className="font-display text-2xl font-semibold">Watch me eat, I guess</h2>
             <p className="mt-1 text-ink-soft">
-              Bowl-by-bowl photos on Instagram, full shop visits on YouTube.
+              Instagram is mostly blurry photos of noodles. YouTube is me talking about the noodles.
             </p>
             <div className="mt-5">
               <SocialButtons />

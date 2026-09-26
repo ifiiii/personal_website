@@ -21,6 +21,8 @@ export interface Recommendation {
   locationName: string;
   coordinates: LatLng;
   category: RecommendationCategory;
+  /** Score out of 10 */
+  rating: number;
   reviewText: string;
   imagePlaceholderUrl: string;
 }

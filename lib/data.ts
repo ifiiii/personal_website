@@ -14,4 +14,7 @@ export const ramenShops: RamenShop[] = (ramenJson as RamenShop[])
 
 export const topRamen = ramenShops.slice(0, 3);
 
-export const recommendations = recommendationsJson as Recommendation[];
+/** Recommendations, highest rated first. */
+export const recommendations: Recommendation[] = (recommendationsJson as Recommendation[])
+  .slice()
+  .sort((a, b) => b.rating - a.rating);

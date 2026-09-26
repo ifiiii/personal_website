@@ -11,13 +11,13 @@ export default function HomePage() {
       {/* Hero */}
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 md:py-20">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-beni">ラーメン日記 · Ramen Journal</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-beni">ラーメン日記 · {site.siteTitle}</p>
           <h1 className="mt-3 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
-            Slurping my way across <span className="text-beni">Japan</span>.
+            I eat a lot of ramen in <span className="text-beni">Japan</span>. Here&apos;s the proof.
           </h1>
           <p className="mt-5 max-w-md text-lg text-ink-soft">
-            {site.tagline} Placeholder intro: honest scores, the stories behind each bowl, and the places worth
-            visiting in between.
+            {site.tagline} Every bowl gets a score out of 10. The numbers are completely made up, but I stand by
+            them. There&apos;s also a list of stuff I did between bowls.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -30,14 +30,14 @@ export default function HomePage() {
               href="/japan"
               className="rounded-full border border-ink/20 px-6 py-3 font-medium transition-colors hover:bg-paper-deep"
             >
-              Japan travel guide
+              Stuff to do in Japan
             </Link>
           </div>
           <dl className="mt-10 flex gap-8">
             {[
               { label: "Bowls ranked", value: ramenShops.length },
               { label: "Cities", value: prefectures },
-              { label: "Recommendations", value: recommendations.length },
+              { label: "Non-ramen spots", value: recommendations.length },
             ].map((stat) => (
               <div key={stat.label}>
                 <dt className="text-xs uppercase tracking-wider text-ink-soft">{stat.label}</dt>
@@ -57,7 +57,7 @@ export default function HomePage() {
             className="object-cover"
           />
           <div className="absolute inset-x-4 bottom-4 rounded-2xl bg-paper/95 p-4 backdrop-blur">
-            <p className="text-xs uppercase tracking-wider text-ink-soft">Current #1</p>
+            <p className="text-xs uppercase tracking-wider text-ink-soft">Current favourite</p>
             <p className="font-display text-xl font-semibold">{topRamen[0]?.shopName}</p>
             <p className="text-sm text-ink-soft">
               {topRamen[0]?.locationName} · {topRamen[0]?.rating.toFixed(1)}/10
@@ -71,11 +71,11 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-beni">The podium</p>
+              <p className="text-sm font-semibold uppercase tracking-widest text-beni">The best ones so far</p>
               <h2 className="mt-1 font-display text-4xl font-semibold tracking-tight">Top 3 Ramen Bowls</h2>
             </div>
             <Link href="/ramen" className="font-medium text-beni underline-offset-4 hover:underline">
-              View full rankings →
+              See all of them →
             </Link>
           </div>
 
@@ -129,7 +129,7 @@ export default function HomePage() {
             className="-z-10 object-cover transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 -z-10 bg-linear-to-t from-ink/80 to-transparent" />
-          <p className="text-sm uppercase tracking-widest opacity-80">Nightlife · Sights · Cafes</p>
+          <p className="text-sm uppercase tracking-widest opacity-80">For when I wasn&apos;t eating ramen</p>
           <h3 className="font-display text-3xl font-semibold">Japan Guide →</h3>
         </Link>
         <Link
@@ -144,8 +144,8 @@ export default function HomePage() {
             className="-z-10 object-cover transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 -z-10 bg-linear-to-t from-ink/80 to-transparent" />
-          <p className="text-sm uppercase tracking-widest opacity-80">Who's behind the chopsticks</p>
-          <h3 className="font-display text-3xl font-semibold">About me →</h3>
+          <p className="text-sm uppercase tracking-widest opacity-80">The guy responsible for this</p>
+          <h3 className="font-display text-3xl font-semibold">About iFi →</h3>
         </Link>
       </section>
     </>

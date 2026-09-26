@@ -40,10 +40,13 @@ function makeIcon(point: MapPoint, active: boolean) {
   });
 }
 
-/** Fits the map to all points whenever the visible set changes. */
+/** Fits the map to all points whenever the visible set changes (re-ordering alone doesn't refit). */
 function FitToPoints({ points }: { points: MapPoint[] }) {
   const map = useMap();
-  const key = points.map((p) => p.id).join(",");
+  const key = points
+    .map((p) => p.id)
+    .sort()
+    .join(",");
 
   useEffect(() => {
     if (points.length === 0) return;

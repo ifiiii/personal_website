@@ -8,7 +8,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/ramen", label: "Ramen Rankings" },
   { href: "/japan", label: "Japan Guide" },
-  { href: "/about", label: "About" },
+  { href: "/about", label: "About iFi" },
 ];
 
 export default function Navbar({ siteTitle }: { siteTitle: string }) {

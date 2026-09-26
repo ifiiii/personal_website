@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Recommendation } from "@/lib/types";
+import RatingBadge from "../RatingBadge";
 import { categoryStyles } from "./categories";
 
 interface RecommendationCardProps {
@@ -34,12 +35,17 @@ export default function RecommendationCard({ place, active, onSelect }: Recommen
       </div>
 
       <div className="min-w-0 flex-1">
-        <span className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${style.chip}`}>
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
+            <h3 className="truncate font-display text-lg font-semibold">{place.name}</h3>
+            <p className="text-sm text-ink-soft">{place.locationName}</p>
+          </div>
+          <RatingBadge rating={place.rating} />
+        </div>
+        <span className={`mt-2 inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${style.chip}`}>
           <span aria-hidden>{style.icon}</span>
           {place.category}
         </span>
-        <h3 className="mt-1.5 truncate font-display text-lg font-semibold">{place.name}</h3>
-        <p className="text-sm text-ink-soft">{place.locationName}</p>
         <p className={`mt-2 text-sm text-ink-soft ${active ? "" : "line-clamp-2"}`}>{place.reviewText}</p>
       </div>
     </button>
