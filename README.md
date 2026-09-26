@@ -44,7 +44,7 @@ Use `guide` instead of `ramen` for Japan Guide photos. The script converts to `.
 
 Shops that share the exact same coordinates are fanned out slightly on the map so each pin stays clickable.
 
-The hero, About portrait and homepage tiles still use picsum.photos. To use a different remote host, add it to `images.remotePatterns` in `next.config.ts`.
+Personal photos live in `public/images/about/`. In `data/site.json`, `portrait` sets the About page photo and homepage avatar, and `gallery` lists the captioned photos on the About page. The homepage hero automatically uses the photo of the #1 ranked bowl.
 
 ## Map
 

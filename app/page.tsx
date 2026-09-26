@@ -5,13 +5,21 @@ import { ramenShops, recommendations, site, topRamen } from "@/lib/data";
 
 export default function HomePage() {
   const prefectures = new Set(ramenShops.map((s) => s.locationName.split(",").pop()?.trim())).size;
+  const favourite = topRamen[0];
 
   return (
     <>
       {/* Hero */}
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 md:py-20">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-beni">ラーメン日記 · {site.siteTitle}</p>
+          <Link href="/about" className="group inline-flex items-center gap-3">
+            <span className="relative size-11 overflow-hidden rounded-full ring-2 ring-beni ring-offset-2 ring-offset-paper">
+              <Image src={site.portrait} alt={site.name} fill sizes="44px" className="object-cover object-[center_45%] scale-150" />
+            </span>
+            <span className="text-sm font-semibold uppercase tracking-widest text-beni group-hover:underline">
+              ラーメン日記 · {site.siteTitle}
+            </span>
+          </Link>
           <h1 className="mt-3 font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
             I eat a lot of ramen in <span className="text-beni">Japan</span>. Here&apos;s the proof.
           </h1>
@@ -47,23 +55,29 @@ export default function HomePage() {
           </dl>
         </div>
 
-        <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-xl">
-          <Image
-            src="https://picsum.photos/seed/ramen-hero/900/1100"
-            alt="Placeholder hero image of a ramen bowl"
-            fill
-            priority
-            sizes="(min-width: 768px) 50vw, 100vw"
-            className="object-cover"
-          />
-          <div className="absolute inset-x-4 bottom-4 rounded-2xl bg-paper/95 p-4 backdrop-blur">
-            <p className="text-xs uppercase tracking-wider text-ink-soft">Current favourite</p>
-            <p className="font-display text-xl font-semibold">{topRamen[0]?.shopName}</p>
-            <p className="text-sm text-ink-soft">
-              {topRamen[0]?.locationName} · {topRamen[0]?.rating.toFixed(1)}/10
-            </p>
-          </div>
-        </div>
+        {favourite && (
+          <Link
+            href="/ramen"
+            className="group relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-xl"
+          >
+            <Image
+              src={favourite.imagePlaceholderUrl}
+              alt={`Bowl at ${favourite.shopName}`}
+              fill
+              priority
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-x-4 bottom-4 flex items-center justify-between gap-4 rounded-2xl bg-paper/95 p-4 backdrop-blur">
+              <div className="min-w-0">
+                <p className="text-xs uppercase tracking-wider text-ink-soft">Current favourite</p>
+                <p className="font-display text-xl font-semibold">{favourite.shopName}</p>
+                <p className="text-sm text-ink-soft">{favourite.locationName}</p>
+              </div>
+              <RatingBadge rating={favourite.rating} />
+            </div>
+          </Link>
+        )}
       </section>
 
       {/* Top 3 */}
@@ -122,11 +136,11 @@ export default function HomePage() {
           className="group relative isolate flex min-h-64 flex-col justify-end overflow-hidden rounded-3xl p-6 text-white"
         >
           <Image
-            src="https://picsum.photos/seed/japan-guide/900/600"
+            src="/images/about/snow-angel.jpg"
             alt=""
             fill
             sizes="(min-width: 768px) 50vw, 100vw"
-            className="-z-10 object-cover transition-transform duration-500 group-hover:scale-105"
+            className="-z-10 object-cover object-[center_72%] transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 -z-10 bg-linear-to-t from-ink/80 to-transparent" />
           <p className="text-sm uppercase tracking-widest opacity-80">For when I wasn&apos;t eating ramen</p>
@@ -137,11 +151,11 @@ export default function HomePage() {
           className="group relative isolate flex min-h-64 flex-col justify-end overflow-hidden rounded-3xl p-6 text-white"
         >
           <Image
-            src="https://picsum.photos/seed/about-me/900/600"
+            src="/images/about/beach.jpg"
             alt=""
             fill
             sizes="(min-width: 768px) 50vw, 100vw"
-            className="-z-10 object-cover transition-transform duration-500 group-hover:scale-105"
+            className="-z-10 object-cover object-[center_68%] transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 -z-10 bg-linear-to-t from-ink/80 to-transparent" />
           <p className="text-sm uppercase tracking-widest opacity-80">The guy responsible for this</p>
