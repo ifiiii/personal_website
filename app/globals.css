@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #faf6ef;
+  --color-paper-deep: #f1e9dc;
+  --color-ink: #1d1a16;
+  --color-ink-soft: #5c544a;
+  --color-line: #e3d8c7;
+  --color-beni: #c8341f; /* vermilion accent */
+  --color-beni-dark: #a32714;
+  --color-broth: #d9a441; /* golden broth accent */
+  --color-matcha: #5f7f3f;
+  --color-night: #3b3f8f;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* ---------- Leaflet map pins ---------- */
+
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--color-paper-deep);
+}
+
+.pin-wrap {
+  background: none;
+  border: none;
+}
+
+.pin {
+  --size: 34px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background: var(--pin-color, var(--color-beni));
+  border: 2px solid #fff;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.3);
+  display: grid;
+  place-items: center;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.pin > span {
+  transform: rotate(45deg);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pin.is-active {
+  --size: 44px;
+  box-shadow:
+    0 0 0 4px rgb(255 255 255 / 0.9),
+    0 0 0 7px var(--pin-color, var(--color-beni)),
+    0 6px 14px rgb(0 0 0 / 0.35);
+}
+
+.pin.is-active > span {
+  font-size: 13px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+}
+
+.leaflet-popup-content {
+  margin: 10px 14px;
+}

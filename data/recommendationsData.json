@@ -1,0 +1,83 @@
+[
+  {
+    "id": "rec-001",
+    "name": "Golden Gai",
+    "locationName": "Shinjuku, Tokyo",
+    "coordinates": [35.694, 139.7045],
+    "category": "Nightlife",
+    "reviewText": "Placeholder text. A maze of tiny bars, most seating six to eight people. Note your favourite bar and whether there's a cover charge.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-001/800/600"
+  },
+  {
+    "id": "rec-002",
+    "name": "Dotonbori Canal",
+    "locationName": "Namba, Osaka",
+    "coordinates": [34.6687, 135.5013],
+    "category": "Nightlife",
+    "reviewText": "Placeholder text. Neon signs, street food and late-night izakaya. Add where you'd start and where you'd end the night.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-002/800/600"
+  },
+  {
+    "id": "rec-003",
+    "name": "Nakasu Yatai Stalls",
+    "locationName": "Nakasu, Fukuoka",
+    "coordinates": [33.593, 130.405],
+    "category": "Nightlife",
+    "reviewText": "Placeholder text. Open-air food stalls along the river. Good for a late bowl of ramen and a highball.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-003/800/600"
+  },
+  {
+    "id": "rec-004",
+    "name": "Fushimi Inari Taisha",
+    "locationName": "Fushimi, Kyoto",
+    "coordinates": [34.9671, 135.7727],
+    "category": "Sights",
+    "reviewText": "Placeholder text. Thousands of vermilion torii gates up the mountain. Tip: go at sunrise, or keep climbing past the crowds.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-004/800/600"
+  },
+  {
+    "id": "rec-005",
+    "name": "Senso-ji",
+    "locationName": "Asakusa, Tokyo",
+    "coordinates": [35.7148, 139.7967],
+    "category": "Sights",
+    "reviewText": "Placeholder text. Tokyo's oldest temple and the Nakamise shopping street. Worth a second visit after dark.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-005/800/600"
+  },
+  {
+    "id": "rec-006",
+    "name": "Itsukushima Shrine",
+    "locationName": "Miyajima, Hiroshima",
+    "coordinates": [34.296, 132.3198],
+    "category": "Sights",
+    "reviewText": "Placeholder text. The floating torii gate. Check the tide tables before you go.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-006/800/600"
+  },
+  {
+    "id": "rec-007",
+    "name": "Kiyosumi Roasters",
+    "locationName": "Kiyosumi-Shirakawa, Tokyo",
+    "coordinates": [35.681, 139.799],
+    "category": "Cafes",
+    "reviewText": "Placeholder text. A quiet neighbourhood known for its speciality coffee roasters. Write down your go-to order.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-007/800/600"
+  },
+  {
+    "id": "rec-008",
+    "name": "Higashiyama Matcha House",
+    "locationName": "Higashiyama, Kyoto",
+    "coordinates": [34.9985, 135.779],
+    "category": "Cafes",
+    "reviewText": "Placeholder text. Ceremonial matcha and wagashi in an old machiya townhouse.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-008/800/600"
+  },
+  {
+    "id": "rec-009",
+    "name": "Higashi Chaya Tea Room",
+    "locationName": "Higashi Chaya, Kanazawa",
+    "coordinates": [36.572, 136.657],
+    "category": "Cafes",
+    "reviewText": "Placeholder text. A teahouse district famous for its gold leaf. Try the gold-leaf soft-serve.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/rec-009/800/600"
+  }
+]

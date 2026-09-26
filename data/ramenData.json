@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ramen-001",
+    "shopName": "Menya Kaze",
+    "locationName": "Shinjuku, Tokyo",
+    "coordinates": [35.6938, 139.7034],
+    "rating": 9.6,
+    "brothType": "Niboshi Shoyu",
+    "reviewText": "Placeholder review. Describe the broth, the noodles, the chashu and the moment you knew this bowl was special. Mention the queue, the ticket machine and what you would order next time.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-001/800/600"
+  },
+  {
+    "id": "ramen-002",
+    "shopName": "Hakata Ichiban Yatai",
+    "locationName": "Hakata, Fukuoka",
+    "coordinates": [33.5902, 130.4207],
+    "rating": 9.4,
+    "brothType": "Tonkotsu",
+    "reviewText": "Placeholder review. A rich, milky pork-bone broth with thin, firm noodles. Note your kaedama order, the toppings and how it compares to other Hakata bowls.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-002/800/600"
+  },
+  {
+    "id": "ramen-003",
+    "shopName": "Susukino Miso Works",
+    "locationName": "Susukino, Sapporo",
+    "coordinates": [43.0556, 141.353],
+    "rating": 9.2,
+    "brothType": "Miso",
+    "reviewText": "Placeholder review. Wok-fried vegetables, a layer of lard keeping it scorching hot, and curly yellow noodles. Perfect after a snowy walk.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-003/800/600"
+  },
+  {
+    "id": "ramen-004",
+    "shopName": "Ichijoji Chicken Club",
+    "locationName": "Ichijoji, Kyoto",
+    "coordinates": [35.045, 135.787],
+    "rating": 8.9,
+    "brothType": "Tori Paitan",
+    "reviewText": "Placeholder review. A creamy chicken broth from Kyoto's ramen street. Describe the texture, the garnish and whether you would queue again.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-004/800/600"
+  },
+  {
+    "id": "ramen-005",
+    "shopName": "Kitakata Morning Bowl",
+    "locationName": "Kitakata, Fukushima",
+    "coordinates": [37.651, 139.874],
+    "rating": 8.7,
+    "brothType": "Shoyu",
+    "reviewText": "Placeholder review. Kitakata's asa-ra (morning ramen) culture: flat, wavy noodles in a clear soy broth, eaten at 7am.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-005/800/600"
+  },
+  {
+    "id": "ramen-006",
+    "shopName": "Namba Tsukemen Lab",
+    "locationName": "Namba, Osaka",
+    "coordinates": [34.666, 135.501],
+    "rating": 8.5,
+    "brothType": "Gyokai Tsukemen",
+    "reviewText": "Placeholder review. Thick noodles dipped in a concentrated pork and seafood sauce. Don't forget the soup-wari at the end.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-006/800/600"
+  },
+  {
+    "id": "ramen-007",
+    "shopName": "Ebisu Yuzu Shio",
+    "locationName": "Ebisu, Tokyo",
+    "coordinates": [35.6467, 139.7101],
+    "rating": 8.3,
+    "brothType": "Yuzu Shio",
+    "reviewText": "Placeholder review. A light, clear salt broth brightened with yuzu peel. A good bowl for a hot summer day.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-007/800/600"
+  },
+  {
+    "id": "ramen-008",
+    "shopName": "Kannai Iekei House",
+    "locationName": "Kannai, Yokohama",
+    "coordinates": [35.4437, 139.638],
+    "rating": 8.0,
+    "brothType": "Iekei (Tonkotsu Shoyu)",
+    "reviewText": "Placeholder review. Customize firmness, richness and oil level. Big sheets of nori, spinach and a bowl of rice on the side.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-008/800/600"
+  },
+  {
+    "id": "ramen-009",
+    "shopName": "Onomichi Harbor Noodle",
+    "locationName": "Onomichi, Hiroshima",
+    "coordinates": [34.4089, 133.205],
+    "rating": 7.8,
+    "brothType": "Seabura Shoyu",
+    "reviewText": "Placeholder review. Soy broth dotted with pork back-fat, flat noodles, and a view of the Seto Inland Sea on the walk back.",
+    "imagePlaceholderUrl": "https://picsum.photos/seed/ramen-009/800/600"
+  }
+]

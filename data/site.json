@@ -1,0 +1,19 @@
+{
+  "name": "Your Name",
+  "siteTitle": "Ramen Journal",
+  "tagline": "Ranking the best bowls in Japan, one slurp at a time.",
+  "bio": [
+    "Placeholder bio. Introduce yourself here: who you are, where you're based, and how a single bowl of ramen turned into an obsession.",
+    "Placeholder paragraph. Explain your ranking method: how you score broth, noodles, toppings and overall experience, and what earns a 9+.",
+    "Placeholder paragraph. Share what's next: upcoming trips, regions you still need to cover, and where people can follow along."
+  ],
+  "stats": [
+    { "label": "Bowls ranked", "value": "250+" },
+    { "label": "Prefectures visited", "value": "32" },
+    { "label": "Years slurping", "value": "8" }
+  ],
+  "social": {
+    "instagram": "",
+    "youtube": ""
+  }
+}
