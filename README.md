@@ -25,7 +25,10 @@ Open http://localhost:3000.
 All content lives in `data/` — edit the JSON and the site updates.
 
 - `data/ramenData.json`: `id`, `shopName`, `locationName`, `coordinates` (`[lat, lng]`), `rating` (out of 10), `brothType`, `reviewText`, `imagePlaceholderUrl`. The top 3 by rating appear on the homepage. The city filter on `/ramen` uses the part of `locationName` after the last comma (`"Shinjuku, Tokyo"` → Tokyo), so keep that format.
-- `data/recommendationsData.json`: `id`, `name`, `locationName`, `coordinates`, `category` (`"Nightlife"`, `"Sights"` or `"Cafes"`), `rating` (out of 10), `reviewText`, `imagePlaceholderUrl`.
+- `data/recommendationsData.json`: `id`, `name`, `locationName`, `coordinates`, `category` (`"Food"`, `"Experiences"`, `"Sights & Views"` or `"Day Trips"`), `rating` (out of 10), `reviewText`, `imagePlaceholderUrl`, optional `imageCredit`.
+  - Set `coordinates` to `null` for chains (e.g. Sushiro): they're listed but get no map pin.
+  - `reviewText` can be `""`; the card just hides it.
+  - Most entries currently borrow a Wikimedia Commons photo, credited via `imageCredit` (the license requires it). When you add your own photo, point `imagePlaceholderUrl` at `/images/guide/<id>.jpg` and delete `imageCredit`.
 - `data/site.json`: your name, tagline, bio paragraphs, stats, and social links. Set `social.instagram` / `social.youtube` to a URL to turn the "soon" placeholders into real buttons.
 
 Types are in `lib/types.ts`. To add a new category, add it to `RECOMMENDATION_CATEGORIES` there and give it a color/icon in `components/recommendations/categories.ts`.

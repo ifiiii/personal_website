@@ -1,8 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // All images are served locally from /public/images.
-  // To load images from another site, add its host to `images.remotePatterns`.
+  images: {
+    // Own photos are served from /public/images. Japan Guide entries temporarily
+    // borrow freely licensed photos from Wikimedia Commons (credited on the page).
+    remotePatterns: [
+      { protocol: "https", hostname: "upload.wikimedia.org" },
+      { protocol: "https", hostname: "thumb.wikimedia.org" },
+    ],
+  },
 };
 
 export default nextConfig;

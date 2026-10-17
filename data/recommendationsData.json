@@ -1,92 +1,292 @@
 [
   {
-    "id": "rec-001",
-    "name": "Golden Gai",
-    "locationName": "Shinjuku, Tokyo",
-    "coordinates": [35.694, 139.7045],
-    "category": "Nightlife",
+    "id": "torikizoku",
+    "name": "Torikizoku",
+    "locationName": "Everywhere (chain)",
+    "coordinates": null,
+    "category": "Food",
+    "rating": 9,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Torikizoku_Abiko.JPG/1920px-Torikizoku_Abiko.JPG",
+    "imageCredit": {
+      "author": "L26",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torikizoku_Abiko.JPG"
+    }
+  },
+  {
+    "id": "pain-maison",
+    "name": "Pain Maison",
+    "locationName": "Ginza, Tokyo",
+    "coordinates": [35.6717, 139.7649],
+    "category": "Food",
+    "rating": 8.9,
+    "reviewText": "",
+    "imagePlaceholderUrl": "/images/guide/pain-maison.jpg"
+  },
+  {
+    "id": "akiba-batting",
+    "name": "Active Akiba Batting Centre",
+    "locationName": "Akihabara, Tokyo",
+    "coordinates": [35.6996, 139.7714],
+    "category": "Experiences",
+    "rating": 8,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Batting_Center_or_Batting_Cage_in_Japan.jpg/1280px-Batting_Center_or_Batting_Cage_in_Japan.jpg",
+    "imageCredit": {
+      "author": "Yoshihiro Kudo",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batting_Center_or_Batting_Cage_in_Japan.jpg"
+    }
+  },
+  {
+    "id": "teamlab-kyoto",
+    "name": "teamLab Biovortex Kyoto",
+    "locationName": "Kyoto Station, Kyoto",
+    "coordinates": [34.98375, 135.76542],
+    "category": "Experiences",
+    "rating": 8.3,
+    "reviewText": "",
+    "imagePlaceholderUrl": "/images/guide/teamlab-kyoto.jpg"
+  },
+  {
+    "id": "teamlab-borderless",
+    "name": "teamLab Borderless",
+    "locationName": "Azabudai Hills, Tokyo",
+    "coordinates": [35.662, 139.74342],
+    "category": "Experiences",
+    "rating": 8.1,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/TeamLab_Borderless_Azabudai_Hills.jpg/1920px-TeamLab_Borderless_Azabudai_Hills.jpg",
+    "imageCredit": {
+      "author": "DannyWithLove",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TeamLab_Borderless_Azabudai_Hills.jpg"
+    }
+  },
+  {
+    "id": "small-worlds",
+    "name": "Small Worlds Tokyo",
+    "locationName": "Ariake, Tokyo",
+    "coordinates": [35.63783, 139.78825],
+    "category": "Experiences",
+    "rating": 7.5,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/SMALL_WORLDS_Miniature_Museum_01.jpg/1920px-SMALL_WORLDS_Miniature_Museum_01.jpg",
+    "imageCredit": {
+      "author": "Bea Phi",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SMALL_WORLDS_Miniature_Museum_01.jpg"
+    }
+  },
+  {
+    "id": "usj",
+    "name": "Universal Studios Japan",
+    "locationName": "Konohana, Osaka",
+    "coordinates": [34.66472, 135.43306],
+    "category": "Experiences",
     "rating": 9.5,
-    "reviewText": "Placeholder text. A maze of tiny bars, most seating six to eight people. Note your favourite bar and whether there's a cover charge.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Universal_Studios_Japan_entrance.jpg/1920px-Universal_Studios_Japan_entrance.jpg",
+    "imageCredit": {
+      "author": "Csiiiyu",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Universal_Studios_Japan_entrance.jpg"
+    }
   },
   {
-    "id": "rec-002",
-    "name": "Dotonbori Canal",
-    "locationName": "Namba, Osaka",
-    "coordinates": [34.6687, 135.5013],
-    "category": "Nightlife",
-    "rating": 8.8,
-    "reviewText": "Placeholder text. Neon signs, street food and late-night izakaya. Add where you'd start and where you'd end the night.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
+    "id": "hoheikyo",
+    "name": "Hōheikyō Onsen",
+    "locationName": "Jozankei, Sapporo",
+    "coordinates": [42.94964, 141.15615],
+    "category": "Day Trips",
+    "rating": 10,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Hoheikyo_spa_roten.JPG/1920px-Hoheikyo_spa_roten.JPG",
+    "imageCredit": {
+      "author": "Soica2001 (talk)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoheikyo_spa_roten.JPG"
+    }
   },
   {
-    "id": "rec-003",
-    "name": "Nakasu Yatai Stalls",
-    "locationName": "Nakasu, Fukuoka",
-    "coordinates": [33.593, 130.405],
-    "category": "Nightlife",
-    "rating": 8.4,
-    "reviewText": "Placeholder text. Open-air food stalls along the river. Good for a late bowl of ramen and a highball.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
+    "id": "sapporo-beer-museum",
+    "name": "Sapporo Beer Museum",
+    "locationName": "Higashi-ku, Sapporo",
+    "coordinates": [43.07141, 141.369],
+    "category": "Experiences",
+    "rating": 7.8,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sapporo_beer_museum-20091012-RM-211854.jpg/1920px-Sapporo_beer_museum-20091012-RM-211854.jpg",
+    "imageCredit": {
+      "author": "Ermell",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapporo_beer_museum-20091012-RM-211854.jpg"
+    }
   },
   {
-    "id": "rec-004",
+    "id": "fushimi-inari",
     "name": "Fushimi Inari Taisha",
     "locationName": "Fushimi, Kyoto",
-    "coordinates": [34.9671, 135.7727],
-    "category": "Sights",
-    "rating": 9.7,
-    "reviewText": "Placeholder text. Thousands of vermilion torii gates up the mountain. Tip: go at sunrise, or keep climbing past the crowds.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
-  },
-  {
-    "id": "rec-005",
-    "name": "Senso-ji",
-    "locationName": "Asakusa, Tokyo",
-    "coordinates": [35.7148, 139.7967],
-    "category": "Sights",
-    "rating": 9,
-    "reviewText": "Placeholder text. Tokyo's oldest temple and the Nakamise shopping street. Worth a second visit after dark.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
-  },
-  {
-    "id": "rec-006",
-    "name": "Itsukushima Shrine",
-    "locationName": "Miyajima, Hiroshima",
-    "coordinates": [34.296, 132.3198],
-    "category": "Sights",
-    "rating": 9.3,
-    "reviewText": "Placeholder text. The floating torii gate. Check the tide tables before you go.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
-  },
-  {
-    "id": "rec-007",
-    "name": "Kiyosumi Roasters",
-    "locationName": "Kiyosumi-Shirakawa, Tokyo",
-    "coordinates": [35.681, 139.799],
-    "category": "Cafes",
-    "rating": 8.6,
-    "reviewText": "Placeholder text. A quiet neighbourhood known for its speciality coffee roasters. Write down your go-to order.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
-  },
-  {
-    "id": "rec-008",
-    "name": "Higashiyama Matcha House",
-    "locationName": "Higashiyama, Kyoto",
-    "coordinates": [34.9985, 135.779],
-    "category": "Cafes",
+    "coordinates": [34.96722, 135.77278],
+    "category": "Sights & Views",
     "rating": 9.1,
-    "reviewText": "Placeholder text. Ceremonial matcha and wagashi in an old machiya townhouse.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/1920px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg",
+    "imageCredit": {
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg"
+    }
   },
   {
-    "id": "rec-009",
-    "name": "Higashi Chaya Tea Room",
-    "locationName": "Higashi Chaya, Kanazawa",
-    "coordinates": [36.572, 136.657],
-    "category": "Cafes",
-    "rating": 8.2,
-    "reviewText": "Placeholder text. A teahouse district famous for its gold leaf. Try the gold-leaf soft-serve.",
-    "imagePlaceholderUrl": "/images/guide/placeholder.jpg"
+    "id": "kiyomizu-dera",
+    "name": "Kiyomizu-dera",
+    "locationName": "Higashiyama, Kyoto",
+    "coordinates": [34.9949, 135.785],
+    "category": "Sights & Views",
+    "rating": 8.7,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/1920px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+    "imageCredit": {
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg"
+    }
+  },
+  {
+    "id": "chazuna-uji",
+    "name": "Chazuna Matcha Grinding Experience",
+    "locationName": "Uji, Kyoto",
+    "coordinates": [34.89657, 135.80561],
+    "category": "Experiences",
+    "rating": 7.7,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Tencha_on_traditional_stone_mill_in_Uji_Japan.jpg/1920px-Tencha_on_traditional_stone_mill_in_Uji_Japan.jpg",
+    "imageCredit": {
+      "author": "Derjochenmeyer",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tencha_on_traditional_stone_mill_in_Uji_Japan.jpg"
+    }
+  },
+  {
+    "id": "nishiki-market",
+    "name": "Nishiki Market",
+    "locationName": "Nakagyo, Kyoto",
+    "coordinates": [35.00503, 135.76614],
+    "category": "Food",
+    "rating": 7.5,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Nishiki_Ichiba_by_matsuyuki.jpg/1920px-Nishiki_Ichiba_by_matsuyuki.jpg",
+    "imageCredit": {
+      "author": "matsuyuki",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nishiki_Ichiba_by_matsuyuki.jpg"
+    }
+  },
+  {
+    "id": "sapporo-ramen-street",
+    "name": "Sapporo Ramen Street (Ganso Ramen Yokocho)",
+    "locationName": "Susukino, Sapporo",
+    "coordinates": [43.0545, 141.3535],
+    "category": "Food",
+    "rating": 8.8,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sapporo_Raumen_Yokocho_Entrance_201406.jpg",
+    "imageCredit": {
+      "author": "Wing1990hk",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapporo_Raumen_Yokocho_Entrance_201406.jpg"
+    }
+  },
+  {
+    "id": "otaru",
+    "name": "Otaru",
+    "locationName": "Otaru, Hokkaido",
+    "coordinates": [43.20202, 141.0006],
+    "category": "Day Trips",
+    "rating": 8.7,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Otaru_Canal_HDR2.jpg/1920px-Otaru_Canal_HDR2.jpg",
+    "imageCredit": {
+      "author": "Tan Wei Liang Byorn",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otaru_Canal_HDR2.jpg"
+    }
+  },
+  {
+    "id": "toriton",
+    "name": "Toriton (Kaiten Sushi)",
+    "locationName": "Sapporo (several branches)",
+    "coordinates": null,
+    "category": "Food",
+    "rating": 9.6,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/TORITON_-_Teine_01.jpg/1920px-TORITON_-_Teine_01.jpg",
+    "imageCredit": {
+      "author": "ノボホショコロトソ",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TORITON_-_Teine_01.jpg"
+    }
+  },
+  {
+    "id": "sushiro",
+    "name": "Sushiro",
+    "locationName": "Everywhere (chain)",
+    "coordinates": null,
+    "category": "Food",
+    "rating": 9.2,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Akindo_Sushiro_001.jpg/1920px-Akindo_Sushiro_001.jpg",
+    "imageCredit": {
+      "author": "Ocdp",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akindo_Sushiro_001.jpg"
+    }
+  },
+  {
+    "id": "stellar-garden",
+    "name": "Sky Lounge Stellar Garden",
+    "locationName": "Shiba Park, Tokyo",
+    "coordinates": [35.6567, 139.7486],
+    "category": "Sights & Views",
+    "rating": 9.4,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/The-Prince-Park-Tower-Tokyo-01.jpg",
+    "imageCredit": {
+      "author": "Rs1421",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The-Prince-Park-Tower-Tokyo-01.jpg"
+    }
+  },
+  {
+    "id": "donburi-chaya",
+    "name": "Donburi Chaya",
+    "locationName": "Nijō Market, Sapporo",
+    "coordinates": [43.0583, 141.3576],
+    "category": "Food",
+    "rating": 8.6,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Nijo_fish_Market_2014.jpg/1920px-Nijo_fish_Market_2014.jpg",
+    "imageCredit": {
+      "author": "Wing1990hk",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nijo_fish_Market_2014.jpg"
+    }
+  },
+  {
+    "id": "shibuya-sky",
+    "name": "Shibuya Sky",
+    "locationName": "Shibuya, Tokyo",
+    "coordinates": [35.65829, 139.70226],
+    "category": "Sights & Views",
+    "rating": 9.1,
+    "reviewText": "",
+    "imagePlaceholderUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Shibuya_Scramble_Square_-_SHIBUYA_SKY_10.jpg/1920px-Shibuya_Scramble_Square_-_SHIBUYA_SKY_10.jpg",
+    "imageCredit": {
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shibuya_Scramble_Square_-_SHIBUYA_SKY_10.jpg"
+    }
   }
 ]

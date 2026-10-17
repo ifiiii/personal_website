@@ -16,12 +16,15 @@ const LeafletMap = dynamic(() => import("./LeafletMap"), {
 
 interface MapListExplorerProps<T extends { id: string }> {
   items: T[];
-  toPoint: (item: T) => MapPoint;
+  /** Return `null` for items that should be listed but have no map pin. */
+  toPoint: (item: T) => MapPoint | null;
   renderCard: (item: T, state: { active: boolean; select: () => void }) => ReactNode;
   selectedId: string | null;
   onSelect: (id: string) => void;
   /** Rendered above the list (title, filters, etc). */
   header?: ReactNode;
+  /** Rendered below the list (credits, notes). */
+  footer?: ReactNode;
 }
 
 /**
@@ -36,13 +39,17 @@ export default function MapListExplorer<T extends { id: string }>({
   selectedId,
   onSelect,
   header,
+  footer,
 }: MapListExplorerProps<T>) {
   const cardRefs = useRef(new Map<string, HTMLLIElement>());
 
   // Recompute only when the items change; `toPoint` is usually an inline function.
   const toPointRef = useRef(toPoint);
   toPointRef.current = toPoint;
-  const points = useMemo(() => items.map((item) => toPointRef.current(item)), [items]);
+  const points = useMemo(
+    () => items.map((item) => toPointRef.current(item)).filter((p): p is MapPoint => p !== null),
+    [items],
+  );
 
   useEffect(() => {
     if (!selectedId) return;
@@ -75,6 +82,7 @@ export default function MapListExplorer<T extends { id: string }>({
             </li>
           )}
         </ul>
+        {footer && <div className="px-4 pb-10 sm:px-6">{footer}</div>}
       </section>
 
       <div className="sticky top-16 z-10 isolate order-1 h-[45vh] border-b border-line lg:order-2 lg:h-full lg:border-b-0">

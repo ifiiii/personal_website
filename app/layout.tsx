@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import { site } from "@/lib/data";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces" });
+const inter = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-inter" });
+const fraunces = Fraunces({ subsets: ["latin", "latin-ext"], variable: "--font-fraunces" });
 
 export const metadata: Metadata = {
   title: {
